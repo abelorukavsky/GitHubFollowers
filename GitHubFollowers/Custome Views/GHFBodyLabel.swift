@@ -1,5 +1,5 @@
 //
-//  GitHubFollowersTitleLabel.swift
+//  GitHubFollowersBodyLabel.swift
 //  GitHubFollowers
 //
 //  Created by Anton Belorukavsky on 19.12.2021.
@@ -7,7 +7,8 @@
 
 import UIKit
 
-class GitHubFollowersTitleLabel: UILabel {
+/// Текстовое поле с описанием ошибки в центре custom Alert'а
+class GHFBodyLabel: UILabel {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,19 +19,19 @@ class GitHubFollowersTitleLabel: UILabel {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(textAlignment: NSTextAlignment, fontSize: CGFloat) {
+    init(textAlignment: NSTextAlignment) {
         super.init(frame: .zero)
         self.textAlignment = textAlignment
-        self.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
         configure()
     }
     
     private func configure() {
-        textColor = .label
+        textColor = .secondaryLabel
+        font = UIFont.preferredFont(forTextStyle: .body)
         adjustsFontSizeToFitWidth = true
-        minimumScaleFactor = 0.9
-        lineBreakMode = .byTruncatingTail
+        minimumScaleFactor = 0.75
+        lineBreakMode = .byWordWrapping
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
+
 }

@@ -7,12 +7,13 @@
 
 import UIKit
 
-class GitHubFollowersAlertVC: UIViewController {
+/// Custom alert с различными сетевыми ошибками
+class GHFAlertVC: UIViewController {
     
-    let containerView = GitHubFollowersContainerView()
-    let titleLabel = GitHubFollowersTitleLabel(textAlignment: .center, fontSize: 20)
-    let messageLabel = GitHubFollowersBodyLabel(textAlignment: .center)
-    let actionButton = GitHubFollowersButton(backgroundColor: .systemPink, title: "Ok")
+    let containerView = GHFContainerView()
+    let titleLabel = GHFTitleLabel(textAlignment: .center, fontSize: 20)
+    let messageLabel = GHFBodyLabel(textAlignment: .center)
+    let actionButton = GHFButton(backgroundColor: .systemPink, title: "Ok")
     
     var alertTitle: String?
     var message: String?

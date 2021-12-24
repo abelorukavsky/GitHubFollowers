@@ -9,9 +9,9 @@ import UIKit
 
 extension UIViewController {
     
-    func presentGitHubFollowersAlertOnMainThread(title: String, message: String, buttonTitle: String) {
+    func presentGHFAlertOnMainThread(title: String, message: String, buttonTitle: String) {
         DispatchQueue.main.async {
-            let alertVC = GitHubFollowersAlertVC(title: title, message: message, buttonTitle: buttonTitle)
+            let alertVC = GHFAlertVC(title: title, message: message, buttonTitle: buttonTitle)
             alertVC.modalPresentationStyle = .overFullScreen
             alertVC.modalTransitionStyle = .crossDissolve
             self.present(alertVC, animated: true)

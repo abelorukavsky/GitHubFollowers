@@ -1,13 +1,15 @@
 //
-//  GitHubFollowersContainerView.swift
+//  GHFAvatarImageView.swift
 //  GitHubFollowers
 //
-//  Created by Anton Belorukavsky on 20.12.2021.
+//  Created by Anton Belorukavsky on 21.12.2021.
 //
 
 import UIKit
 
-class GitHubFollowersContainerView: UIView {
+class GHFAvatarImageView: UIImageView {
+    
+    let placeHolderImage = UIImage(named: "avatar-placeholder")!
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -19,10 +21,9 @@ class GitHubFollowersContainerView: UIView {
     }
     
     private func configure() {
-        backgroundColor = .systemBackground
-        layer.cornerRadius = 16
-        layer.borderWidth = 2
-        layer.borderColor = UIColor.white.cgColor
+        layer.cornerRadius = 10
+        clipsToBounds = true
+        image = placeHolderImage
         translatesAutoresizingMaskIntoConstraints = false
     }
 

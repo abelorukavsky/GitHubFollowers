@@ -7,7 +7,8 @@
 
 import UIKit
 
-class GitHubFollowersButton: UIButton {
+/// Универсальная кнопка
+class GHFButton: UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: frame)

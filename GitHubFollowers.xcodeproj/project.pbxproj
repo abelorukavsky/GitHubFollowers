@@ -17,14 +17,17 @@
 		FE46EFDB27720CC300BBA5CC /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE46EFDA27720CC300BBA5CC /* ErrorMessage.swift */; };
 		FE949045276A9FA800F28841 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949044276A9FA800F28841 /* SearchVC.swift */; };
 		FE949047276AA16100F28841 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949046276AA16100F28841 /* FavoritesListVC.swift */; };
-		FE949049276BF81200F28841 /* GitHubFollowersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949048276BF81200F28841 /* GitHubFollowersButton.swift */; };
-		FE94904B276BFF6700F28841 /* GitHubFollowersTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94904A276BFF6700F28841 /* GitHubFollowersTextField.swift */; };
+		FE949049276BF81200F28841 /* GHFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949048276BF81200F28841 /* GHFButton.swift */; };
+		FE94904B276BFF6700F28841 /* GHFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94904A276BFF6700F28841 /* GHFTextField.swift */; };
 		FE9DA29B276E6EB4005639C5 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA29A276E6EB4005639C5 /* FollowerListVC.swift */; };
-		FE9DA29D276F96D6005639C5 /* GitHubFollowersTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA29C276F96D6005639C5 /* GitHubFollowersTitleLabel.swift */; };
-		FE9DA29F276F9E95005639C5 /* GitHubFollowersBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA29E276F9E95005639C5 /* GitHubFollowersBodyLabel.swift */; };
-		FE9DA2A1276F9FBA005639C5 /* GitHubFollowersAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA2A0276F9FBA005639C5 /* GitHubFollowersAlertVC.swift */; };
+		FE9DA29D276F96D6005639C5 /* GHFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA29C276F96D6005639C5 /* GHFTitleLabel.swift */; };
+		FE9DA29F276F9E95005639C5 /* GHFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA29E276F9E95005639C5 /* GHFBodyLabel.swift */; };
+		FE9DA2A1276F9FBA005639C5 /* GHFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA2A0276F9FBA005639C5 /* GHFAlertVC.swift */; };
 		FE9DA2A3276FBF9B005639C5 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA2A2276FBF9B005639C5 /* UIViewController+Ext.swift */; };
-		FE9DA2A9276FF049005639C5 /* GitHubFollowersContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA2A8276FF049005639C5 /* GitHubFollowersContainerView.swift */; };
+		FE9DA2A9276FF049005639C5 /* GHFContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA2A8276FF049005639C5 /* GHFContainerView.swift */; };
+		FEA34D19277252270017F4DD /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA34D18277252270017F4DD /* FollowerCell.swift */; };
+		FEA34D1B277252BE0017F4DD /* GHFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA34D1A277252BE0017F4DD /* GHFAvatarImageView.swift */; };
+		FEA34D1D277537770017F4DD /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA34D1C277537770017F4DD /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +43,17 @@
 		FE46EFDA27720CC300BBA5CC /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		FE949044276A9FA800F28841 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		FE949046276AA16100F28841 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
-		FE949048276BF81200F28841 /* GitHubFollowersButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersButton.swift; sourceTree = "<group>"; };
-		FE94904A276BFF6700F28841 /* GitHubFollowersTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersTextField.swift; sourceTree = "<group>"; };
+		FE949048276BF81200F28841 /* GHFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFButton.swift; sourceTree = "<group>"; };
+		FE94904A276BFF6700F28841 /* GHFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTextField.swift; sourceTree = "<group>"; };
 		FE9DA29A276E6EB4005639C5 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
-		FE9DA29C276F96D6005639C5 /* GitHubFollowersTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersTitleLabel.swift; sourceTree = "<group>"; };
-		FE9DA29E276F9E95005639C5 /* GitHubFollowersBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersBodyLabel.swift; sourceTree = "<group>"; };
-		FE9DA2A0276F9FBA005639C5 /* GitHubFollowersAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersAlertVC.swift; sourceTree = "<group>"; };
+		FE9DA29C276F96D6005639C5 /* GHFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTitleLabel.swift; sourceTree = "<group>"; };
+		FE9DA29E276F9E95005639C5 /* GHFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFBodyLabel.swift; sourceTree = "<group>"; };
+		FE9DA2A0276F9FBA005639C5 /* GHFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFAlertVC.swift; sourceTree = "<group>"; };
 		FE9DA2A2276FBF9B005639C5 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
-		FE9DA2A8276FF049005639C5 /* GitHubFollowersContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersContainerView.swift; sourceTree = "<group>"; };
+		FE9DA2A8276FF049005639C5 /* GHFContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFContainerView.swift; sourceTree = "<group>"; };
+		FEA34D18277252270017F4DD /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		FEA34D1A277252BE0017F4DD /* GHFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFAvatarImageView.swift; sourceTree = "<group>"; };
+		FEA34D1C277537770017F4DD /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				FE46EFDA27720CC300BBA5CC /* ErrorMessage.swift */,
+				FEA34D1C277537770017F4DD /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -130,12 +137,14 @@
 		FE9DA2A5276FEAAC005639C5 /* Custome Views */ = {
 			isa = PBXGroup;
 			children = (
-				FE949048276BF81200F28841 /* GitHubFollowersButton.swift */,
-				FE94904A276BFF6700F28841 /* GitHubFollowersTextField.swift */,
-				FE9DA29C276F96D6005639C5 /* GitHubFollowersTitleLabel.swift */,
-				FE9DA29E276F9E95005639C5 /* GitHubFollowersBodyLabel.swift */,
-				FE9DA2A8276FF049005639C5 /* GitHubFollowersContainerView.swift */,
-				FE9DA2A0276F9FBA005639C5 /* GitHubFollowersAlertVC.swift */,
+				FEA34D17277252020017F4DD /* Cells */,
+				FE949048276BF81200F28841 /* GHFButton.swift */,
+				FE94904A276BFF6700F28841 /* GHFTextField.swift */,
+				FE9DA29C276F96D6005639C5 /* GHFTitleLabel.swift */,
+				FE9DA29E276F9E95005639C5 /* GHFBodyLabel.swift */,
+				FE9DA2A8276FF049005639C5 /* GHFContainerView.swift */,
+				FE9DA2A0276F9FBA005639C5 /* GHFAlertVC.swift */,
+				FEA34D1A277252BE0017F4DD /* GHFAvatarImageView.swift */,
 			);
 			path = "Custome Views";
 			sourceTree = "<group>";
@@ -157,6 +166,14 @@
 				FE23D4212768B629003B3281 /* LaunchScreen.storyboard */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		FEA34D17277252020017F4DD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEA34D18277252270017F4DD /* FollowerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,21 +246,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE94904B276BFF6700F28841 /* GitHubFollowersTextField.swift in Sources */,
+				FE94904B276BFF6700F28841 /* GHFTextField.swift in Sources */,
 				FE949047276AA16100F28841 /* FavoritesListVC.swift in Sources */,
 				FE949045276A9FA800F28841 /* SearchVC.swift in Sources */,
-				FE9DA2A9276FF049005639C5 /* GitHubFollowersContainerView.swift in Sources */,
+				FE9DA2A9276FF049005639C5 /* GHFContainerView.swift in Sources */,
 				FE9DA2A3276FBF9B005639C5 /* UIViewController+Ext.swift in Sources */,
 				FE23D4172768B627003B3281 /* AppDelegate.swift in Sources */,
 				FE46EFD527712C2D00BBA5CC /* User.swift in Sources */,
-				FE9DA29D276F96D6005639C5 /* GitHubFollowersTitleLabel.swift in Sources */,
+				FEA34D1B277252BE0017F4DD /* GHFAvatarImageView.swift in Sources */,
+				FEA34D19277252270017F4DD /* FollowerCell.swift in Sources */,
+				FE9DA29D276F96D6005639C5 /* GHFTitleLabel.swift in Sources */,
 				FE46EFD327712BD800BBA5CC /* Follower.swift in Sources */,
 				FE9DA29B276E6EB4005639C5 /* FollowerListVC.swift in Sources */,
-				FE9DA2A1276F9FBA005639C5 /* GitHubFollowersAlertVC.swift in Sources */,
-				FE9DA29F276F9E95005639C5 /* GitHubFollowersBodyLabel.swift in Sources */,
+				FE9DA2A1276F9FBA005639C5 /* GHFAlertVC.swift in Sources */,
+				FE9DA29F276F9E95005639C5 /* GHFBodyLabel.swift in Sources */,
 				FE46EFDB27720CC300BBA5CC /* ErrorMessage.swift in Sources */,
+				FEA34D1D277537770017F4DD /* UIHelper.swift in Sources */,
 				FE46EFD82771323000BBA5CC /* NetworkManager.swift in Sources */,
-				FE949049276BF81200F28841 /* GitHubFollowersButton.swift in Sources */,
+				FE949049276BF81200F28841 /* GHFButton.swift in Sources */,
 				FE23D4192768B627003B3281 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

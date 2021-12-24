@@ -7,7 +7,8 @@
 
 import UIKit
 
-class GitHubFollowersTextField: UITextField {
+/// Текстовое поле в SearchVC для введения username
+class GHFTextField: UITextField {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
