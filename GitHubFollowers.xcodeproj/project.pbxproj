@@ -19,6 +19,7 @@
 		FE7EC5652784B70300B9B4E6 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7EC5642784B70300B9B4E6 /* UserInfoVC.swift */; };
 		FE7EC5672789C04700B9B4E6 /* GHFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7EC5662789C04700B9B4E6 /* GHFUserInfoHeaderVC.swift */; };
 		FE7EC5692789C0C400B9B4E6 /* GHFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7EC5682789C0C400B9B4E6 /* GHFSecondaryTitleLabel.swift */; };
+		FE7EC56B2789FC4800B9B4E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7EC56A2789FC4800B9B4E6 /* Constants.swift */; };
 		FE949045276A9FA800F28841 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949044276A9FA800F28841 /* SearchVC.swift */; };
 		FE949047276AA16100F28841 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949046276AA16100F28841 /* FavoritesListVC.swift */; };
 		FE949049276BF81200F28841 /* GHFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949048276BF81200F28841 /* GHFButton.swift */; };
@@ -49,6 +50,7 @@
 		FE7EC5642784B70300B9B4E6 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		FE7EC5662789C04700B9B4E6 /* GHFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		FE7EC5682789C0C400B9B4E6 /* GHFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		FE7EC56A2789FC4800B9B4E6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FE949044276A9FA800F28841 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		FE949046276AA16100F28841 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		FE949048276BF81200F28841 /* GHFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFButton.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				FE46EFDA27720CC300BBA5CC /* GHFError.swift */,
 				FEA34D1C277537770017F4DD /* UIHelper.swift */,
+				FE7EC56A2789FC4800B9B4E6 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				FE46EFD82771323000BBA5CC /* NetworkManager.swift in Sources */,
 				FE949049276BF81200F28841 /* GHFButton.swift in Sources */,
 				FE23D4192768B627003B3281 /* SceneDelegate.swift in Sources */,
+				FE7EC56B2789FC4800B9B4E6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
