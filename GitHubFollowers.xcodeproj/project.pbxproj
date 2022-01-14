@@ -39,6 +39,8 @@
 		FEA34D19277252270017F4DD /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA34D18277252270017F4DD /* FollowerCell.swift */; };
 		FEA34D1B277252BE0017F4DD /* GHFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA34D1A277252BE0017F4DD /* GHFAvatarImageView.swift */; };
 		FEA34D1D277537770017F4DD /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA34D1C277537770017F4DD /* UIHelper.swift */; };
+		FECAA22F278F6F1C0090ED08 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECAA22E278F6F1C0090ED08 /* PersistenceManager.swift */; };
+		FECAA231279195270090ED08 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECAA230279195270090ED08 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		FEA34D18277252270017F4DD /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		FEA34D1A277252BE0017F4DD /* GHFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFAvatarImageView.swift; sourceTree = "<group>"; };
 		FEA34D1C277537770017F4DD /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		FECAA22E278F6F1C0090ED08 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		FECAA230279195270090ED08 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				FE46EFD72771323000BBA5CC /* NetworkManager.swift */,
+				FECAA22E278F6F1C0090ED08 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				FEA34D18277252270017F4DD /* FollowerCell.swift */,
+				FECAA230279195270090ED08 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -347,6 +353,8 @@
 				FEA34D1B277252BE0017F4DD /* GHFAvatarImageView.swift in Sources */,
 				FEA34D19277252270017F4DD /* FollowerCell.swift in Sources */,
 				FE9DA29D276F96D6005639C5 /* GHFTitleLabel.swift in Sources */,
+				FECAA22F278F6F1C0090ED08 /* PersistenceManager.swift in Sources */,
+				FECAA231279195270090ED08 /* FavoriteCell.swift in Sources */,
 				FE7EC5652784B70300B9B4E6 /* UserInfoVC.swift in Sources */,
 				FE7EC5692789C0C400B9B4E6 /* GHFSecondaryTitleLabel.swift in Sources */,
 				FE46EFD327712BD800BBA5CC /* Follower.swift in Sources */,
