@@ -97,7 +97,6 @@ extension FavoritesListVC: UITableViewDataSource, UITableViewDelegate {
             guard let self = self else { return }
             guard let error = error else { return }
             self.presentGHFAlertOnMainThread(title: "Unable to remove", message: error.rawValue, buttonTitle: "Ok")
-            
         }
     }
     
