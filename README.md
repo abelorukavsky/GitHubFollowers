@@ -16,7 +16,7 @@
 
 ## Возможности
 
-Приложение GitHubFollowers позволяет *(нажмите "подробнее", чтобы посмотреть GIF)*:
+Приложение GitHubFollowers позволяет следующее *(нажмите "подробнее" в Safari или "детали" в Chrome, чтобы посмотреть GIF)*:
 * Просматривать подписчиков любого пользователя GitHub
 * Найти на стартовом экране любого пользователя GitHub и сразу перейти к collectionView c его подписчиками
     <details>
@@ -60,7 +60,7 @@
     ![7](https://github.com/abelorukavsky/GitHubFollowers/blob/master/GitHubFollowers/Support/gifs/7.gif)
     </details>
     
-* Переходить к подробному экрану подписчика из экрана Favorites и обратно
+* Переходить к экрану с подписчиками избранного пользователя из экрана Favorites и обратно
     <details>
 
     ![8](https://github.com/abelorukavsky/GitHubFollowers/blob/master/GitHubFollowers/Support/gifs/8.gif)
