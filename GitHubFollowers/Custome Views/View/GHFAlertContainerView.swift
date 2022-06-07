@@ -8,7 +8,7 @@
 import UIKit
 
 /// View для custom Alert, в котором находятся GHFTitleLabel и GHFBodyLabel
-class GHFContainerView: UIView {
+class GHFAlertContainerView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -26,5 +26,4 @@ class GHFContainerView: UIView {
         layer.borderColor = UIColor.white.cgColor
         translatesAutoresizingMaskIntoConstraints = false
     }
-
 }

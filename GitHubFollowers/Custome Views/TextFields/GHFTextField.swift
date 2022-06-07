@@ -7,7 +7,7 @@
 
 import UIKit
 
-/// Текстовое поле в SearchVC для введения username
+/// Textfield in SearchVC to enter a username
 class GHFTextField: UITextField {
 
     override init(frame: CGRect) {
@@ -34,8 +34,11 @@ class GHFTextField: UITextField {
         minimumFontSize = 12
         
         backgroundColor = .tertiarySystemBackground
+        keyboardType = .webSearch
         autocorrectionType = .no
+        clearButtonMode = .always
         returnKeyType = .go
+        autocapitalizationType = .none
         placeholder = "Enter a username"
     }
 }

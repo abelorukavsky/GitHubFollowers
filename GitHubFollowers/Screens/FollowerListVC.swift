@@ -15,7 +15,7 @@ class FollowerListVC: UIViewController {
     
     enum Section { case main }
     
-    var userName: String!
+    var username: String!
     var followers: [Follower] = []
     var filteredFollowers: [Follower] = []
     var page = 1
@@ -24,13 +24,23 @@ class FollowerListVC: UIViewController {
     
     var collectionView: UICollectionView!
     var dataSource: UICollectionViewDiffableDataSource<Section, Follower>!
-
+    
+    init(username: String) {
+        super.init(nibName: nil, bundle: nil)
+        self.username = username
+        title = username
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
         configureSearchController()
         configureCollectionView()
-        getFollowers(username: userName, page: page)
+        getFollowers(username: username, page: page)
         configureDataSource()
     }
     
@@ -65,7 +75,7 @@ class FollowerListVC: UIViewController {
     
     func getFollowers(username: String, page: Int) {
         showLoadingView()
-        NetworkManager.shared.getFollowers(for: userName, page: page) { [weak self] result in
+        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
             guard let self = self else { return } // unwrapping all selfs inside getFollowers scope
             
             self.dismissLoadingView()
@@ -108,7 +118,7 @@ class FollowerListVC: UIViewController {
     @objc func addButtonTapped() {
         showLoadingView()
         
-        NetworkManager.shared.getUserInfo(for: userName) { [weak self] result in
+        NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
             guard let self = self else { return }
             self.dismissLoadingView()
             
@@ -143,7 +153,7 @@ extension FollowerListVC: UICollectionViewDelegate {
         if offsetY > contentHeight - height {
             guard hasMoreFollowers else { return }
             page += 1
-            getFollowers(username: userName, page: page)
+            getFollowers(username: username, page: page)
         }
     }
     
@@ -175,7 +185,7 @@ extension FollowerListVC: UISearchResultsUpdating, UISearchBarDelegate {
 
 extension FollowerListVC: FollowerListVCDelegate {
     func didRequestFollowers(for userName: String) {
-        self.userName = userName
+        self.username = userName
         title = userName
         page = 1
         followers.removeAll()

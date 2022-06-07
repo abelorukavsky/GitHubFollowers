@@ -10,7 +10,7 @@ import UIKit
 /// Custom alert с различными сетевыми ошибками
 class GHFAlertVC: UIViewController {
     
-    let containerView = GHFContainerView()
+    let containerView = GHFAlertContainerView()
     let titleLabel = GHFTitleLabel(textAlignment: .center, fontSize: 20)
     let messageLabel = GHFBodyLabel(textAlignment: .center)
     let actionButton = GHFButton(backgroundColor: .systemPink, title: "Ok")
@@ -34,7 +34,7 @@ class GHFAlertVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.75)
+        view.backgroundColor = UIColor.black.withAlphaComponent(0.75)
         configureContainerView()
         configureTitleLabel()
         configureActionButton()
