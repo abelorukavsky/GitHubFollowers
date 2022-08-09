@@ -37,9 +37,7 @@ class GHFUserInfoHeaderVC: UIViewController {
     func configureUIElements() {
         NetworkManager.shared.downloadImage(from: user.avatarUrl) { [weak self] image in
             guard let self = self else { return }
-            DispatchQueue.main.async {
-                self.avatarImageView.image = image
-            }
+            DispatchQueue.main.async { self.avatarImageView.image = image }
         }
         userNameLabel.text = user.login
         nameLabel.text = user.name ?? ""

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF08333128A2F83000B10CDF /* GHFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF08333028A2F83000B10CDF /* GHFDataLoadingVC.swift */; };
 		CF47ABFF28206D4000356203 /* GHFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47ABFE28206D4000356203 /* GHFTabBarController.swift */; };
 		FE23D4172768B627003B3281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23D4162768B627003B3281 /* AppDelegate.swift */; };
 		FE23D4192768B627003B3281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23D4182768B627003B3281 /* SceneDelegate.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF08333028A2F83000B10CDF /* GHFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFDataLoadingVC.swift; sourceTree = "<group>"; };
 		CF47ABFE28206D4000356203 /* GHFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTabBarController.swift; sourceTree = "<group>"; };
 		FE23D4132768B627003B3281 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE23D4162768B627003B3281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				FE7EC574278C974C00B9B4E6 /* ItemInfoVC */,
 				FE9DA2A0276F9FBA005639C5 /* GHFAlertVC.swift */,
 				FE7EC5662789C04700B9B4E6 /* GHFUserInfoHeaderVC.swift */,
+				CF08333028A2F83000B10CDF /* GHFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				FECAA22F278F6F1C0090ED08 /* PersistenceManager.swift in Sources */,
 				FECAA231279195270090ED08 /* FavoriteCell.swift in Sources */,
 				FE7EC5652784B70300B9B4E6 /* UserInfoVC.swift in Sources */,
+				CF08333128A2F83000B10CDF /* GHFDataLoadingVC.swift in Sources */,
 				FE7EC5692789C0C400B9B4E6 /* GHFSecondaryTitleLabel.swift in Sources */,
 				FE46EFD327712BD800BBA5CC /* Follower.swift in Sources */,
 				FE9DA29B276E6EB4005639C5 /* FollowerListVC.swift in Sources */,
