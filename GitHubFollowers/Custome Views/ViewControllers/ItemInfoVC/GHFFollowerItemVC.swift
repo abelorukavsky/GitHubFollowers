@@ -7,7 +7,13 @@
 
 import Foundation
 
+protocol GHFFollowerItemVCDelegate: AnyObject {
+    func didTapGetFollowers(for user: User)
+}
+
 class GHFFollowerItemVC: GHFItemInfoVC {
+    
+    weak var delegate: GHFFollowerItemVCDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()

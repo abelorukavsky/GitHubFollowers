@@ -15,7 +15,6 @@ class GHFItemInfoVC: UIViewController {
     let actionButton = GHFButton()
     
     var user: User!
-    weak var delegate: UserInfoVCDelegate!
     
     init(user: User) {
         super.init(nibName: nil, bundle: nil)
@@ -54,8 +53,7 @@ class GHFItemInfoVC: UIViewController {
     @objc func actionButtonTapped() {} //будет перезаписано в подклассах repo- и followerItemVC
     
     private func layoutUI() {
-        view.addSubview(stackView)
-        view.addSubview(actionButton)
+        view.addSubviews(stackView, actionButton)
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
         let padding: CGFloat = 20
