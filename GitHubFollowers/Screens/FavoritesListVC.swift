@@ -47,18 +47,22 @@ class FavoritesListVC: GHFDataLoadingVC {
             
             switch result {
             case .success(let favorites):
+                self.updateUI(with: favorites)
                 
-                if favorites.isEmpty {
-                    self.showEmptyStateView(with: "No favorites?\nAdd one on the follower screen.", in: self.view)
-                } else {
-                    self.favorites = favorites
-                    DispatchQueue.main.async {
-                        self.tableView.reloadData()
-                        self.view.bringSubviewToFront(self.tableView) // для исправления бага, в котором нотификейшн showEmptyStateView появляется на экране перед tableView, даже если в tableView находятся готовые cell
-                    }
-                }
             case .failure(let error):
                 self.presentGHFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+            }
+        }
+    }
+    
+    func updateUI(with favorites: [Follower]) {
+        if favorites.isEmpty {
+            self.showEmptyStateView(with: "No favorites?\nAdd one on the follower screen.", in: self.view)
+        } else {
+            self.favorites = favorites
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+                self.view.bringSubviewToFront(self.tableView) // для исправления бага, в котором нотификейшн showEmptyStateView появляется на экране перед tableView, даже если в tableView находятся готовые cell
             }
         }
     }
